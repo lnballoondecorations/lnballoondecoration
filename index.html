@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LN Balloon Decoration - Premier Event & Party Styling</title>
+    <meta name="description" content="LN Balloon Decoration - Best balloon decorators in Noida, Garhi Chaukhandi. Book birthday parties, anniversary surprises, and baby showers.">
+    <meta name="keywords" content="LN Balloon Decoration, Balloon Decorators in Noida, Garhi Chaukhandi Balloon Decoration, Birthday Party Decorators Noida">
+    <title>LN Balloon Decoration - Premium Party & Event Decorators in Noida</title>
     <style>
         * {
             margin: 0;
@@ -12,272 +14,301 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         body {
-            background-color: #0f0f13;
-            color: #f1f1f1;
+            background-color: #ffffff;
+            color: #333333;
+            min-height: 100vh;
+            overflow-x: hidden;
         }
-        /* Header */
         header {
-            background: rgba(18, 18, 24, 0.95);
-            backdrop-filter: blur(10px);
-            position: fixed;
-            top: 0;
-            width: 100%;
-            padding: 15px 40px;
+            background: #1e3799;
+            padding: 20px 40px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            border-bottom: 4px solid #ff4757;
+            position: sticky;
+            top: 0;
             z-index: 1000;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            animation: slideDown 0.8s ease-in-out;
         }
-        .logo-area {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-        .logo-icon {
-            width: 40px;
-            height: 40px;
-            background: linear-gradient(135deg, #ff7b00, #ff0055);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 20px;
-            color: white;
+        .logo {
+            font-size: 24px;
             font-weight: bold;
-            box-shadow: 0 0 15px rgba(255, 123, 0, 0.5);
-        }
-        header h1 {
-            font-size: 20px;
             color: #ffffff;
-            letter-spacing: 0.5px;
+            letter-spacing: 1px;
+            text-transform: capitalize;
         }
         nav a {
-            color: #ccc;
+            color: #ffffff;
             text-decoration: none;
             margin-left: 25px;
-            font-size: 14px;
+            font-size: 16px;
+            font-weight: 600;
             transition: color 0.3s;
         }
         nav a:hover {
-            color: #ff7b00;
+            color: #ff4757;
         }
-        /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(15, 15, 19, 0.7), rgba(15, 15, 19, 0.85)), url('https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1200&q=80');
-            background-size: cover;
-            background-position: center;
-            height: 450px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
             text-align: center;
-            color: white;
-            padding: 0 20px;
-            margin-top: 60px;
+            padding: 90px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            animation: fadeInZoom 1s ease-in-out;
         }
-        .hero h2 {
-            font-size: 42px;
-            margin-bottom: 15px;
-            color: #ffffff;
-            font-weight: 700;
-        }
-        .hero h2 span {
-            color: #ff7b00;
+        .hero h1 {
+            font-size: 44px;
+            margin-bottom: 20px;
+            color: #1e3799;
+            text-transform: capitalize;
+            animation: bounceIn 1.2s ease;
         }
         .hero p {
-            font-size: 16px;
-            max-width: 600px;
-            color: #bbb;
-            line-height: 1.5;
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #555555;
+            line-height: 1.6;
         }
-        /* Main Container */
-        .container {
+        .btn {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            padding: 14px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s ease;
+            margin: 5px;
+            animation: pulseBtn 2s infinite;
+        }
+        .btn:hover {
+            background-color: #20ba5a;
+            transform: translateY(-4px) scale(1.05);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+        }
+        .btn-gmb {
+            background-color: #4285F4;
+            box-shadow: 0 4px 15px rgba(66, 133, 244, 0.4);
+        }
+        .btn-gmb:hover {
+            background-color: #3367d6;
+        }
+        .section {
+            padding: 60px 20px;
             max-width: 1200px;
-            margin: 50px auto;
-            padding: 0 20px;
+            margin: 0 auto;
         }
-        .section-title {
+        .section h2 {
             text-align: center;
+            font-size: 34px;
             margin-bottom: 40px;
-            font-size: 30px;
-            color: #fff;
-            font-weight: 600;
+            color: #1e3799;
+            text-transform: capitalize;
         }
-        .section-title span {
-            color: #ff7b00;
+        .about-box {
+            background: #f8f9fa;
+            padding: 35px;
+            border-radius: 15px;
+            border-left: 6px solid #1e3799;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            text-align: center;
+            font-size: 17px;
+            line-height: 1.8;
+            color: #444444;
+            animation: fadeIn 1.5s ease;
         }
-        /* Grid Layout */
-        .grid {
+        .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 30px;
         }
-        /* Card Design */
         .card {
-            background: #1a1a24;
-            border-radius: 12px;
+            background: #ffffff;
+            border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            transition: transform 0.3s ease, border-color 0.3s ease;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+            border: 1px solid #e0e0e0;
+            transition: all 0.4s ease;
+            animation: fadeInUp 1s ease;
         }
         .card:hover {
             transform: translateY(-8px);
-            border-color: rgba(255, 123, 0, 0.4);
+            box-shadow: 0 12px 30px rgba(30, 55, 153, 0.15);
+            border-color: #1e3799;
         }
         .card img {
             width: 100%;
-            height: 220px;
+            height: 210px;
             object-fit: cover;
         }
         .card-content {
             padding: 25px;
+            text-align: center;
         }
-        .card-content h3 {
+        .card h3 {
             font-size: 22px;
-            margin-bottom: 10px;
-            color: #fff;
+            margin-bottom: 12px;
+            color: #1e3799;
+            text-transform: capitalize;
         }
-        .card-content p {
-            font-size: 14px;
-            color: #aaa;
-            margin-bottom: 20px;
-            line-height: 1.5;
+        .card p {
+            color: #666666;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 15px;
         }
         .price {
-            font-size: 20px;
+            font-size: 18px;
+            color: #ff4757;
             font-weight: bold;
-            color: #00ff88;
-            margin-bottom: 20px;
         }
-        .btn-book {
-            display: block;
-            width: 100%;
-            padding: 12px;
-            background: linear-gradient(135deg, #ff7b00, #ff5500);
-            color: white;
+        .contact-info {
             text-align: center;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 6px;
-            transition: opacity 0.3s;
+            background: #f8f9fa;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border: 1px solid #e0e0e0;
+            animation: fadeIn 1.5s ease;
         }
-        .btn-book:hover {
-            opacity: 0.9;
+        .contact-info p {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #444444;
         }
-        /* Contact Section */
-        .contact-section {
-            background: #15151c;
-            padding: 60px 20px;
-            margin-top: 60px;
-            border-top: 1px solid rgba(255, 255, 255, 0.08);
-            text-align: center;
-        }
-        .contact-box {
-            max-width: 600px;
-            margin: 0 auto;
-            background: #1a1a24;
-            padding: 30px;
-            border-radius: 12px;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-        }
-        .contact-box p {
-            font-size: 16px;
-            color: #ccc;
-            margin: 12px 0;
-        }
-        .contact-box a {
-            color: #ff7b00;
-            text-decoration: none;
-        }
-        /* Footer */
         footer {
-            background: #0b0b0e;
-            color: #777;
+            background: #1e3799;
             text-align: center;
-            padding: 25px;
-            font-size: 13px;
-            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            margin-top: 50px;
+            color: #ffffff;
+        }
+
+        /* Animations */
+        @keyframes slideDown {
+            from { transform: translateY(-100%); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes fadeInZoom {
+            from { transform: scale(0.95); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes fadeInUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes bounceIn {
+            0% { transform: scale(0.8); opacity: 0; }
+            60% { transform: scale(1.05); opacity: 1; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        @keyframes pulseBtn {
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4); }
+            70% { box-shadow: 0 0 0 12px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
         }
     </style>
 </head>
 <body>
 
-    <!-- Header -->
     <header>
-        <div class="logo-area">
-            <div class="logo-icon">LN</div>
-            <h1>LN Balloon Decoration</h1>
-        </div>
+        <div class="logo">LN Balloon Decoration</div>
         <nav>
-            <a href="#">Home</a>
-            <a href="#services">Packages</a>
-            <a href="#contact">Contact Us</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#packages">Packages</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <div class="hero">
-        <h2>Transform Your Events With <span>LN Balloon Decoration</span></h2>
-        <p>Creating magical setups, stunning balloon arches, and unforgettable aesthetics for your birthdays, anniversaries, and special celebrations.</p>
-    </div>
+    <section id="home" class="hero">
+        <h1>Transform Your Celebrations With Stunning Balloon Decor In Noida</h1>
+        <p>Welcome to LN Balloon Decoration! Trusted local party decorators in Garhi Chaukhandi, Noida. We bring magic to your birthdays, anniversaries, and special events with custom balloon styling.</p>
+        <a href="https://wa.me/919899419276" class="btn" target="_blank">Chat On WhatsApp</a>
+        <a href="https://www.google.com/search?q=L+N+Balloon+Decoration+Garhi+Chaukhandi+Noida" class="btn btn-gmb" target="_blank">View Google Business Profile</a>
+    </section>
 
-    <!-- Packages Section -->
-    <div class="container" id="services">
-        <h2 class="section-title">Our Exclusive <span>Packages</span></h2>
-        
-        <div class="grid">
-            <!-- Package 1 -->
+    <section id="about" class="section">
+        <h2>About Our Business</h2>
+        <div class="about-box">
+            <p><strong>LN Balloon Decoration</strong> is a premier event styling service based near Shri Krishna Inter College, Garhi Chaukhandi, Noida. With years of trusted expertise, we specialize in converting any space into a magical celebration venue. From grand birthday arches to elegant anniversary room styling, our professional decorators ensure flawless execution for every special occasion.</p>
+        </div>
+    </section>
+
+    <section id="packages" class="section">
+        <h2>Our Popular Decoration Packages & Categories</h2>
+        <div class="services-grid">
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=600&q=80" alt="Birthday Decoration">
+                <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=600&q=80" alt="Birthday Party Decor">
                 <div class="card-content">
-                    <h3>Birthday Premium Setup</h3>
-                    <p>Custom theme balloon styling, metallic arches, ring backdrop setup, and fairy lights decoration.</p>
-                    <div class="price">₹2,999 onwards</div>
-                    <a href="https://wa.me/919899419276?text=Hi%20LN%20Balloon%20Decoration,%20I%20am%20interested%20in%20booking%20the%20Birthday%20Premium%20Setup." target="_blank" class="btn-book">Book via WhatsApp</a>
+                    <h3>Birthday Party Decor</h3>
+                    <p>Vibrant balloon arches, customized name banners, theme backdrops, and balloon pillars tailored perfectly for kids and adult birthdays.</p>
+                    <div class="price">Custom Packages Available</div>
                 </div>
             </div>
-
-            <!-- Package 2 -->
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80" alt="Anniversary Decoration">
+                <img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=600&q=80" alt="Anniversary Surprise Setup">
                 <div class="card-content">
-                    <h3>Romantic Anniversary Decor</h3>
-                    <p>Heart-shaped balloon structures, rose petals path, candle light arrangement, and premium foil balloons.</p>
-                    <div class="price">₹3,499 onwards</div>
-                    <a href="https://wa.me/919899419276?text=Hi%20LN%20Balloon%20Decoration,%20I%20am%20interested%20in%20booking%20the%20Romantic%20Anniversary%20Decor." target="_blank" class="btn-book">Book via WhatsApp</a>
+                    <h3>Anniversary Surprise Setup</h3>
+                    <p>Romantic milestone setups, heart-shaped balloon clusters, candle lights, and elegant room transformations to celebrate love.</p>
+                    <div class="price">Custom Packages Available</div>
                 </div>
             </div>
-
-            <!-- Package 3 -->
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=600&q=80" alt="Grand Celebration">
+                <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=600&q=80" alt="Welcome Baby & Baby Shower">
                 <div class="card-content">
-                    <h3>Grand Celebration & Party</h3>
-                    <p>Full venue balloon styling, welcome board, customized banners, and heavy decorative elements.</p>
-                    <div class="price">₹5,999 onwards</div>
-                    <a href="https://wa.me/919899419276?text=Hi%20LN%20Balloon%20Decoration,%20I%20am%20interested%20in%20booking%20the%20Grand%20Celebration%20Package." target="_blank" class="btn-book">Book via WhatsApp</a>
+                    <h3>Welcome Baby & Baby Shower</h3>
+                    <p>Joyful homecoming and welcoming decorations featuring pastel balloon styling, foil props, and custom welcome banners.</p>
+                    <div class="price">Custom Packages Available</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=600&q=80" alt="Candlelight Dinner & Room Decor">
+                <div class="card-content">
+                    <h3>Candlelight Dinner & Room Decor</h3>
+                    <p>Exquisite romantic candle setups with rose petals, balloon touches, and fairy lights for memorable surprise dates.</p>
+                    <div class="price">Custom Packages Available</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80" alt="Car Decoration Surprise">
+                <div class="card-content">
+                    <h3>Car Decoration Surprise</h3>
+                    <p>Stunning boot-space and exterior balloon decorations for birthdays, anniversaries, and special proposal moments.</p>
+                    <div class="price">Custom Packages Available</div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=600&q=80" alt="Special Event Styling">
+                <div class="card-content">
+                    <h3>Special Event Styling</h3>
+                    <p>Custom thematic event decorations for openings, receptions, haldi, mehendi, and corporate gatherings.</p>
+                    <div class="price">Custom Packages Available</div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Contact Section -->
-    <div class="contact-section" id="contact">
-        <h2 class="section-title">Get in <span>Touch</span></h2>
-        <div class="contact-box">
-            <p><strong>Business Name:</strong> LN Balloon Decoration</p>
-            <p><strong>Phone / WhatsApp:</strong> <a href="tel:9899419276">+91 98994-19276</a></p>
-            <p><strong>Email ID:</strong> <a href="mailto:nlalit440@gmail.com">nlalit440@gmail.com</a></p>
-            <p style="margin-top: 20px; font-size: 14px; color: #888;">Feel free to contact us directly for custom event themes and bookings!</p>
+    <section id="contact" class="section">
+        <h2>Get In Touch & Location</h2>
+        <div class="contact-info">
+            <p>Ready to plan your next big celebration? Reach out to us directly for instant bookings and customized packages!</p>
+            <p><strong>Phone / WhatsApp:</strong> +91 98994 19276</p>
+            <p><strong>Location Address:</strong> Near Shri Krishna Inter College, Garhi Chaukhandi, Chaukhandi Road, Noida - 201316, Uttar Pradesh</p>
+            <a href="https://wa.me/919899419276" class="btn" target="_blank">Book Via WhatsApp</a>
+            <a href="https://www.google.com/search?q=L+N+Balloon+Decoration+Garhi+Chaukhandi+Noida" class="btn btn-gmb" target="_blank">Find Us On Google (GMB)</a>
         </div>
-    </div>
+    </section>
 
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 LN Balloon Decoration. All rights reserved.</p>
+        <p>&copy; 2026 LN Balloon Decoration. All Rights Reserved. | Serving Noida & Surrounding Areas</p>
     </footer>
 
 </body>
