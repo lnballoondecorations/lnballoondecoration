@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LN Balloon Decoration - Premier Event & Party Styling</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #0f0f13;
+            color: #f1f1f1;
+        }
+        /* Header */
+        header {
+            background: rgba(18, 18, 24, 0.95);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #ff7b00, #ff0055);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            box-shadow: 0 0 15px rgba(255, 123, 0, 0.5);
+        }
+        header h1 {
+            font-size: 20px;
+            color: #ffffff;
+            letter-spacing: 0.5px;
+        }
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff7b00;
+        }
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(15, 15, 19, 0.7), rgba(15, 15, 19, 0.85)), url('https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+            margin-top: 60px;
+        }
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 15px;
+            color: #ffffff;
+            font-weight: 700;
+        }
+        .hero h2 span {
+            color: #ff7b00;
+        }
+        .hero p {
+            font-size: 16px;
+            max-width: 600px;
+            color: #bbb;
+            line-height: 1.5;
+        }
+        /* Main Container */
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 30px;
+            color: #fff;
+            font-weight: 600;
+        }
+        .section-title span {
+            color: #ff7b00;
+        }
+        /* Grid Layout */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+        /* Card Design */
+        .card {
+            background: #1a1a24;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(255, 123, 0, 0.4);
+        }
+        .card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 25px;
+        }
+        .card-content h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+        .card-content p {
+            font-size: 14px;
+            color: #aaa;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #00ff88;
+            margin-bottom: 20px;
+        }
+        .btn-book {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, #ff7b00, #ff5500);
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: opacity 0.3s;
+        }
+        .btn-book:hover {
+            opacity: 0.9;
+        }
+        /* Contact Section */
+        .contact-section {
+            background: #15151c;
+            padding: 60px 20px;
+            margin-top: 60px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            text-align: center;
+        }
+        .contact-box {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #1a1a24;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .contact-box p {
+            font-size: 16px;
+            color: #ccc;
+            margin: 12px 0;
+        }
+        .contact-box a {
+            color: #ff7b00;
+            text-decoration: none;
+        }
+        /* Footer */
+        footer {
+            background: #0b0b0e;
+            color: #777;
+            text-align: center;
+            padding: 25px;
+            font-size: 13px;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-area">
+            <div class="logo-icon">LN</div>
+            <h1>LN Balloon Decoration</h1>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#services">Packages</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h2>Transform Your Events With <span>LN Balloon Decoration</span></h2>
+        <p>Creating magical setups, stunning balloon arches, and unforgettable aesthetics for your birthdays, anniversaries, and special celebrations.</p>
+    </div>
+
+    <!-- Packages Section -->
+    <div class="container" id="services">
+        <h2 class="section-title">Our Exclusive <span>Packages</span></h2>
+        
+        <div class="grid">
+            <!-- Package 1 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=600&q=80" alt="Birthday Decoration">
+                <div class="card-content">
+                    <h3>Birthday Premium Setup</h3>
+                    <p>Custom theme balloon styling, metallic arches, ring backdrop setup, and fairy lights decoration.</p>
+                    <div class="price">₹2,999 onwards</div>
+                    <a href="https://wa.me/919899419276?text=Hi%20LN%20Balloon%20Decoration,%20I%20am%20interested%20in%20booking%20the%20Birthday%20Premium%20Setup." target="_blank" class="btn-book">Book via WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Package 2 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80" alt="Anniversary Decoration">
+                <div class="card-content">
+                    <h3>Romantic Anniversary Decor</h3>
+                    <p>Heart-shaped balloon structures, rose petals path, candle light arrangement, and premium foil balloons.</p>
+                    <div class="price">₹3,499 onwards</div>
+                    <a href="https://wa.me/919899419276?text=Hi%20LN%20Balloon%20Decoration,%20I%20am%20interested%20in%20booking%20the%20Romantic%20Anniversary%20Decor." target="_blank" class="btn-book">Book via WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Package 3 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=600&q=80" alt="Grand Celebration">
+                <div class="card-content">
+                    <h3>Grand Celebration & Party</h3>
+                    <p>Full venue balloon styling, welcome board, customized banners, and heavy decorative elements.</p>
+                    <div class="price">₹5,999 onwards</div>
+                    <a href="https://wa.me/919899419276?text=Hi%20LN%20Balloon%20Decoration,%20I%20am%20interested%20in%20booking%20the%20Grand%20Celebration%20Package." target="_blank" class="btn-book">Book via WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="contact-section" id="contact">
+        <h2 class="section-title">Get in <span>Touch</span></h2>
+        <div class="contact-box">
+            <p><strong>Business Name:</strong> LN Balloon Decoration</p>
+            <p><strong>Phone / WhatsApp:</strong> <a href="tel:9899419276">+91 98994-19276</a></p>
+            <p><strong>Email ID:</strong> <a href="mailto:nlalit440@gmail.com">nlalit440@gmail.com</a></p>
+            <p style="margin-top: 20px; font-size: 14px; color: #888;">Feel free to contact us directly for custom event themes and bookings!</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 LN Balloon Decoration. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
